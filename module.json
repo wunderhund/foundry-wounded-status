@@ -2,7 +2,7 @@
   "id": "craigs-wounded-status",
   "title": "Wounded Status Effect",
   "description": "Adds a custom Wounded token status icon and overlay.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -19,6 +19,6 @@
   "esmodules": [
     "scripts/main.js"
   ],
-  "download": "https://github.com/wunderhund/foundry-wounded-status/releases/download/v1.0.0/craigs-wounded-status-1.0.0.zip",
+  "download": "https://github.com/wunderhund/foundry-wounded-status/releases/download/v1.0.1/craigs-wounded-status-1.0.1.zip",
   "manifest": "https://raw.githubusercontent.com/wunderhund/foundry-wounded-status/main/module.json"
 }
