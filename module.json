@@ -1,6 +1,6 @@
 {
   "id": "craigs-wounded-status",
-  "title": "Wounded",
+  "title": "Wounded Status Effect",
   "description": "Adds a custom Wounded token status icon and overlay.",
   "version": "1.0.0",
   "compatibility": {
