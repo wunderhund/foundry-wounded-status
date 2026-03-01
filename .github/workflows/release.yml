@@ -30,6 +30,9 @@ jobs:
             README.md
 
       - name: Upload ZIP to release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: craigs-wounded-status-${{ steps.get_version.outputs.version }}.zip
+        run: |
+          gh release upload v${{ steps.get_version.outputs.version }} \
+            craigs-wounded-status-${{ steps.get_version.outputs.version }}.zip \
+            --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
