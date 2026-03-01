@@ -1,0 +1,24 @@
+{
+  "id": "craigs-wounded-status",
+  "title": "Wounded",
+  "description": "Adds a custom Wounded token status icon and overlay.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Craig A. Butler"
+    }
+  ],
+  "url": "https://github.com/wunderhund/foundry-wounded-status",
+  "bugs": "https://github.com/wunderhund/foundry-wounded-status/issues",
+  "readme": "https://github.com/wunderhund/foundry-wounded-status/blob/main/README.md",
+  "license": "Unlicense",
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "download": "https://github.com/wunderhund/foundry-wounded-status/releases/download/v1.0.0/craigs-wounded-status-1.0.0.zip",
+  "manifest": "https://raw.githubusercontent.com/wunderhund/foundry-wounded-status/main/module.json"
+}
