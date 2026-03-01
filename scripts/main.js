@@ -1,5 +1,5 @@
 console.log("craigs-wounded-status: script file loaded");
-Hooks.once('init', () => {
+Hooks.once('ready', () => {
   console.log("loading craigs-wounded-status...");
   CONFIG.statusEffects.push({
     id: "craigs-wounded-status",
